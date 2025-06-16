@@ -14,7 +14,7 @@ const App = () => {
   return (
     <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
       <QueryClientProvider client={queryClient}>
-        <div className="py-6 px-6 md:px-12 h-[100vh] flex flex-col">
+        <div className="py-6 px-6 md:px-12 h-[100dvh] flex flex-col">
           <header className="flex justify-between items-center">
             <Link to="/" className="flex items-center font-bold gap-2">
               <img src="/logo.png" alt="logo" width={32} height={32} />
